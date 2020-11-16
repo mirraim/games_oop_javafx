@@ -7,6 +7,7 @@ public class Win {
             if (board[i][i] != 0) {
                 if (isHorisontal(board, i) || isVertical(board, i)) {
                     rsl = true;
+                    break;
                 }
             }
         }
